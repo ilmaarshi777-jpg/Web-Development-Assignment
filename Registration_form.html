@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Registration_form.css">
+</head>
+<body >
+
+    <header>
+        <center><h1>STUDENT REGISTRATION FORM</h1></center>
+    </header>
+    
+    <MAIN style="text-align:center">
+        
+        <form action="/action.php">
+        <LABEL for="rollno">Roll no.:</LABEL>
+        <INPUT TYPE="TEXT" id="rollno" required>
+        <br>
+        <br>
+
+        <LABEL for="name">Enter your Name:</LABEL>
+        <INPUT TYPE="TEXT" id="name" placeholder="First name" required>
+        <INPUT TYPE="TEXT" id="name" placeholder="Last name">
+        <br>
+        <br>
+        <LABEL for="Father_name">Father's Name:</LABEL>
+        <INPUT TYPE="TEXT" id="Father_name" required>
+        <br>
+        <br>
+        <LABEL for="dob">Date of Birth:</LABEL>
+        <INPUT TYPE="date" id="dob" placeholder="dob" required>
+        <br>
+        <br>
+        <LABEL for="mobile_no">Mobile Number:</LABEL>
+        <select name="mobile_no" id="mobile_no">
+            <option value="+91" id="mobile_no">+91</option>
+            <!-- INDIA -->
+            <option value="+1" id="mobile_no">+1</option>
+            <!-- US -->
+            <option value="+44" id="mobile_no">+44</option>
+            <!-- UK -->
+            <option value="+61" id="mobile_no">+61</option>
+            <!-- AUSTRALIA -->
+            <option value="+49" id="mobile_no">+49</option>
+            <!-- GERMANY -->
+        </select>
+        <input type="tel" id="mobile_no" maxlength="10" required>
+        <BR>
+        <BR>
+        <LABEL for="EMAIL_ID">Email ID:</LABEL>
+        <INPUT TYPE="MAIL" id="EMAIL_ID" placeholder="EMAIL_ID">
+        <BR>
+        <BR>
+        <LABEL for="PASSWORD">Password:</LABEL>
+        <INPUT TYPE="password" id="password" placeholder="password">
+        <br>
+        <br>
+        <label for="gender">Gender:</label>
+        <label for="male">Male
+        <input type="radio" id="male" name="gender" value="male">
+        </label>
+        <label for="female">Female
+        <input type="radio" id="female" name="gender" value="female">
+        </label>
+        <br>
+        <br>
+        <LABEL for="department">Department:</LABEL>
+        <label for="CSE">CSE
+        <input type="checkbox" id="department" name="department" value="cse">
+        </label>
+        <label for="IT">IT
+        <input type="checkbox" id="department" name="department" value="IT">
+        </label>
+        <label for="ECE">ECE
+        <input type="checkbox" id="department" name="department" value="ECE">
+        </label>
+        <label for="Civil">Civil
+        <input type="checkbox" id="department" name="department" value="Civil">
+        </label>
+        <br>
+        <br>
+        <div>
+        <label for="course">Course:
+         <select name="course" id="course">
+             <option value="Select your course" id="course">Select your course</option>
+            <option value="Data Structures" id="course">Data Structures</option>
+            <option value="Algorithms" id="course">Algorithms</option>
+            <option value="Web Development" id="course">Web Development</option>
+            <option value="Artificial Intelligence" id="course">Artificial Intelligence</option>
+            <option value="Database Management" id="course">Database Management</option>
+            <option value="Software Engineering" id="course">Software Engineering</option>
+            <option value="Information Security" id="course">Information Security</option>
+            <option value="Fluid Mechanics" id="course">Fluid Mechanics</option> 
+            <option value="Digital Electronics" id="course">Digital Electronics </option> 
+            <option value="Signal Processing" id="course">Signal Processing</option> 
+            <option value="Structural Engineering" id="course">Structural Engineering</option> 
+            </select>
+            </label> 
+            </div>
+            <br>
+            <br>
+            <label for="photo"> Student Photo:</label>
+                <input type="file" name="photo" id="photo" >
+            
+            <br>
+            <br>
+            <label for ="city">City:
+                <input type="text" id="city" placeholder="city">
+            </label>
+            <br>
+            <br>
+            <label for="address">Address:</label>
+                <textarea placeholder="Address" name="address" id="address"  placeholder="address"></textarea>
+            
+            <br>
+            <br>
+           
+            <input type="submit" value="Register">
+            
+        </form>
+            
+    </MAIN>
+    
+</body>
+</html>

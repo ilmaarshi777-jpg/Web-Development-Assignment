@@ -1,0 +1,22 @@
+*{
+    background-color:rgb(240, 173, 222);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label{
+    color:#57054f
+}
+input{
+    color:rgb(47, 3, 24)
+}
+h1{
+    color:#2e022e;
+    font-size:40px;
+    text-transform:upper;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+option{
+    background-color:#150112;
+    /* color:(255,255,255); */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,46 @@
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(127, 255, 212, 0.5);
+    display: block;
+    position: fixed;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(60, 208, 31, 0.5);
+    position: relative;
+    display: block;
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(62, 16, 95, 0.5);
+    position: none  ;
+    display: inline-block;
+}
+
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(176, 179, 19, 0.5);
+    position: sticky;
+    top:0px;
+    display: inline-block;
+}
+
+.div1{
+    display: flex;
+}
+
+.div1 :hover{
+    border: 2px black solid;
+}
+
+@media(widhth: 600px){
+    box3{
+        background-color: rgba(176, 179, 19, 0.5);
+    }
+}
